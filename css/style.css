@@ -1,0 +1,66 @@
+/* Imported Font */
+@import url();
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Classes */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(109.8deg, rgb(62, 5, 116) -5.2%, rgb(41, 14, 151) -5.2%, rgb(216, 68, 148) 103.3%);
+    background-repeat: none ;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 1.5rem 0;
+    color: purple;
+    font-weight: bolder;
+    cursor: default;
+    line-height: 1.2em;
+    color: #0000;
+    text-shadow: 
+      0 0 #000, 
+      0 1.2em purple;
+    overflow: hidden;
+    transition: .3s;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+}
+
+h1:hover {
+    transform: scale(1.05);
+    text-shadow: 
+      0 -1.2em #000, 
+      0 0 purple;
+      background-color: rgba(0,0,0,0.5);
+}
+
+#countdown {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    background-color: white;
+    border-radius: 25px;
+    font-size:  2rem;
+    font-weight: 700;
+    box-shadow: rgba(0,0,0,0.5) 0px 4px 12px;
+}
+
+#countdown div {
+    display: inline-block;
+    margin:0 1rem;
+    cursor: default;
+}
+
+#countdown div span {
+    color: purple;
+    cursor: default;
+}
+
